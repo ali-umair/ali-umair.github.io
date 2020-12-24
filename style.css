@@ -1,0 +1,49 @@
+/*------------------------*/
+/* BASIC SETUP */
+/*------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #000;
+    font-family: 'Poppins', 'Arial', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    text-rendering: optimizeLegibility;
+}
+
+/*------------------------*/
+/* NAVIGATION BAR */
+/*------------------------*/
+
+nav {
+    background-color: aquamarine;
+    text-align: center;
+    overflow: hidden;
+    padding-top: 14px;
+    padding-bottom: 14px;
+
+}
+
+nav a {
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+    margin: auto -2px;
+}
+
+nav a:hover {
+    background-color: black;
+    color: aquamarine;
+}
+
+.active {
+    background-color: black;
+    color: aquamarine;
+}
